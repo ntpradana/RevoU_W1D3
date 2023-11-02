@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: lightgray;
+                background: url("https://images5.alphacoders.com/132/1329624.png");
+                background-position: left top;
+                background-size: 1280px 720px;
+            }
+            p {
+                display: inline;
+                font-family: "Impact", Arial;
+                font-style: italic;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: line-through;
+                text-shadow: -4px 4px 4px red;
+                line-height: 50%;
+                letter-spacing: 2px;
+                word-spacing: 4px;
+                text-align: left;
+                text-indent: 2rem;
+            }
+            span {
+                display: block;
+            }
+            .container {
+                height: 300px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;                
+            }
+            .container div {
+                width: 100px;
+                padding: 10px;
+                text-align: center;
+                font-size: 14sp;
+                color: #ffeead;
+                border: 2px solid;
+                background-color: green;
+                margin: 16px;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+            <!-- css-tricks.com: rekomendasi navigasi -->
+        </style>
+        <link rel="stylesheet" href="basic.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav class="container">
+            <div class="home">Home</div>
+            <div class="search">Search</div>
+            <div class="logout">Logout</div>
+        </nav>
+        <p>halo kamu!</p>
+        <p>apa kabar?</p>
+        <span>halo halo</span>
+        <span>come on</span>
+    </body>
+</html>
