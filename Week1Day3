@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Styles</title>
+        <style>
+            body {background-color: yellowgreen;}
+            h2{color:blue}
+            h4 {color: rgb(0, 0, 255);}
+            h5 {color: #00FF00;}
+            h6 {color: hsl(360, 100%, 75%);}
+            p{color:red}
+            .mobil{color:blueviolet}
+            #avanza{color:green}
+            a[target]{
+                background-color:yellow
+            }
+            a[target="_blank"]{
+                background-color:pink
+            }
+            a:hover {
+                background-color:burlywood
+            }
+            div {
+                width: 100px;
+                height: 100px;
+                background: linear-gradient(45deg,blue,yellow,red);
+            }
+        </style>
+        <link rel="stylesheet" href="Week_1_Day_3.css">
+    </head>
+    <body>
+        <h1 style="color:red">Ini Merah</h1>
+        <h2>Ini Biru</h2>
+        <h3>Ini Hijau</h3>
+        <!-- prioritas berdasarkan urutan inline, internal, & eksternal -->
+        <p>Hai</p>
+        <p class="mobil" id="avanza">Ini Avanza</p>
+        <p class="mobil" id="alya">Ini Alya</p>
+        <!--ID lebih diprioritaskan, selanjutnya class dlm CSS-->
+        <a href="https://www.w3schools.com">w3schools.com</a>
+        <a href="https://disney.com" target="_blank">disney.com</a>
+        <a href="https://wikipedia.org" target="_top">wikipedia.org</a>
+        <!--mozilla developer network: rekomendasi dokumentasi-->
+        <h4>Selamat Datang!</h4>
+        <h5>Revou</h5>
+        <h6>Short Course Web Enginering</h6>
+        <div></div>
+    </body>
+</html>
